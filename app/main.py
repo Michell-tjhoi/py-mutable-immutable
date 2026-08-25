@@ -25,8 +25,18 @@ print(type(profile_info))
 print(type(marks))
 print(type(collection_of_coins))
 
-list_of_mutable_variables = [my_favourite_films, marks, collection_of_coins]
-list_of_immutable_variables = [lucky_number, pi, one_is_a_prime_number, name, profile_info]
+list_of_mutable_variables = [
+    my_favourite_films, 
+    marks, 
+    collection_of_coins
+]
+list_of_immutable_variables = [
+    lucky_number, 
+    pi, 
+    one_is_a_prime_number, 
+    name, 
+    profile_info
+]
 
 sorted_variables = {
     "mutable": list_of_mutable_variables,
